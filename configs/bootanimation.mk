@@ -29,7 +29,7 @@ ifneq ($(filter pa_d2att pa_d2spr pa_d2tmo pa_d2vzw pa_hercules pa_i605 pa_i9300
 endif
 
 # PA HDPI Devices
-ifneq ($(filter pa_galaxysmtd,$(TARGET_PRODUCT)),)
+ifneq ($(filter pa_i9100 pa_galaxysmtd,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/pa/prebuilt/bootanimation/800x480.zip:system/media/bootanimation.zip
 endif

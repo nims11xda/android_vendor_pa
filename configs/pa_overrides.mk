@@ -14,7 +14,19 @@
 
 PRODUCT_PACKAGES += \
     Busybox \
-    Lightbulb
+    ParanoidOTA \
+    InCallUI \
+    Apollo \
+    VoicePlus \
+    DashClock \
+    Lightbulb \
+    LockClock \
+    SlimFileManager \
+    Trebuchet \
+    HALO \
+    audio_effects.conf \
+    DSPManager \
+    libcyanogen-dsp
 
 # Source or prebuilt PA-prefs logic
 #ifneq ($(PREFS_FROM_SOURCE),true)
