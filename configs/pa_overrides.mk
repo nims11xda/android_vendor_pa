@@ -15,7 +15,20 @@
 # PA packages
 PRODUCT_PACKAGES += \
     Busybox \
-    Lightbulb
+    ParanoidOTA \
+    InCallUI \
+    Apollo \
+    VoicePlus \
+    DashClock \
+    Lightbulb \
+    LockClock \
+    SlimFileManager \
+    Trebuchet \
+    HALO \
+    KernelTweaker \
+    audio_effects.conf \
+    DSPManager \
+    libcyanogen-dsp
 
 # Extra packages
 PRODUCT_PACKAGES += \
